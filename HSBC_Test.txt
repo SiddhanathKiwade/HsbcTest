@@ -1,0 +1,20 @@
+Q 1. Display all employee names who are in department A00.
+
+Ans-
+
+	select LAST_NAME, FIRST_NAME MID_INIT
+        from employee
+        where dept=A00;
+
+Q 2. Display EMP_LEVEL per DEPT
+
+     SELECT EmpLevel; 
+     FROM employee 
+     GROUP BY dept;
+
+
+Q 4. Display EMP_NAME by HIRE_DATE (display format 24 Aug 2020) in order – newest to oldest.
+
+     SELECT fName, lName; 
+     FROM employee 
+     ORDER BY HIRE_DATE;
